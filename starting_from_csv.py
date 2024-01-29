@@ -45,9 +45,6 @@ output_file = 'data/crypto_vcs_updated.csv'
 
 data = read_csv(input_file)
 
-# Process only the first 10 rows for testing
-data = data[:10]
-
 for row in data:
     twitter_links = extract_twitter_links(row['Website'])
     row['twitter'] = ', '.join(twitter_links) if twitter_links else ''
