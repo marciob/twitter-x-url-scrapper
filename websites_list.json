@@ -1,3 +1,7 @@
 {
-  "websites": ["https://www.1confirmation.com/", "http://example2.com"]
+  "websites": [
+    "https://www.1confirmation.com/",
+    "http://example2.com",
+    "https://21mcapital.com/"
+  ]
 }
